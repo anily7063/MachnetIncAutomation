@@ -1,6 +1,6 @@
 package base;
 
-public class Base {
+public class BaseClass {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }

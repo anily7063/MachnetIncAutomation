@@ -13,7 +13,11 @@
         <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <configuration>
+        <suiteXmlFiles>
+            <suiteXmlFile>${project.build.testOutputDirectory}/Testng.xml</suiteXmlFile>
+        </suiteXmlFiles>
+    </configuration>
 
     <dependencies>
 <!--        dependency for selenium-->
