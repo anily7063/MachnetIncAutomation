@@ -1,8 +1,9 @@
 package utilities;
 
+import org.testng.asserts.SoftAssert;
+
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 
 public class ReadConfig {
@@ -27,8 +28,8 @@ public class ReadConfig {
         String chromePath=pro.getProperty("chromepath");
         return chromePath;
     }
-//    public SoftAssert softAssert(){
-//        SoftAssert soft_assert =new SoftAssert();
-//        return soft_assert;
-//    }
+    public SoftAssert softAssert(){
+        SoftAssert soft_assert =new SoftAssert();
+        return soft_assert;
+    }
 }

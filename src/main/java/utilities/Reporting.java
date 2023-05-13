@@ -34,7 +34,7 @@ public class Reporting extends TestListenerAdapter {
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Host name", "localhost");
         extent.setSystemInfo("Environemnt", "QA");
-        extent.setSystemInfo("user", "Suraj Gupta");
+        extent.setSystemInfo("user", "Anil Yadav");
 
         htmlReporter.config().setDocumentTitle("Automation Project"); // Title of report
         htmlReporter.config().setReportName("Automation Report"); // name of the report
