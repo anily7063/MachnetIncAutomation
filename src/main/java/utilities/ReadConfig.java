@@ -10,10 +10,10 @@ public class ReadConfig {
     Properties pro;
     public ReadConfig(){
         String workingDirectory = System.getProperty("user.dir");
-        File src =new File(workingDirectory + "\\src\\main\resources\\config\\object.properties");
+        File src =new File(workingDirectory + "\\src\\main\\resources\\config\\object.properties");
         try{
             FileInputStream fis= new FileInputStream(src);
-           pro =new Properties();
+           pro=new Properties();
            pro.load(fis);
 
         } catch (Exception e) {

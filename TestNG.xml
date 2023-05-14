@@ -8,7 +8,7 @@
     <test name="AutomationTest">
         <parameter name="browser" value="chrome">
             <classes>
-                <class name="TC_TestCaseHomePage_000"/>
+                <class name="testCases.TC_TestCaseHomePage_000"/>
 
 
             </classes>
