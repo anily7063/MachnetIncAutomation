@@ -15,7 +15,7 @@ public class HomePagePlatformFeatures {
     }
     public void moveToHomepagePlatformFeature() throws InterruptedException {
         JavascriptExecutor jse =(JavascriptExecutor)driver;
-        jse.executeScript("window.scrollBy(0,700)");
+        jse.executeScript("window.scrollBy(0,680)");
         Thread.sleep(5000);
     }
 }

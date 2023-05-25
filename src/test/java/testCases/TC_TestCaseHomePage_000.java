@@ -30,6 +30,23 @@ public class TC_TestCaseHomePage_000 extends BaseClass {
         homePage =new HomePage(driver);
         homePage.clickOnLogo();
     }
+@Test(priority = 3)
+    public void homePageContactSales() throws InterruptedException{
+        homePage=new HomePage(driver);
+        homePage.clickOnContactSales();
+       homePage.clickOnExploreMore();
+    }
+    @Test(priority = 4)
+public void homePageKeyClients() throws InterruptedException{
+        homePageKeyClients = new HomePageKeyClients(driver);
+        homePageKeyClients.scrollToKeyClients();
+        homePageKeyClients.clickOnKeyClientsDot();
+}
+@Test(priority = 5)
+public void homePagePlatformFeatures() throws InterruptedException {
+        homePagePlatformFeatures =new HomePagePlatformFeatures(driver);
+        homePagePlatformFeatures.moveToHomepagePlatformFeature();
 
+}
 
 }

@@ -42,13 +42,16 @@ public class HomePage {
         log.info("clicking on Homepage Explore More button");
 
         exploreMore.click();
+        Thread.sleep(1000);
         //get the handle of current window
         String currentWindowHandle= driver.getWindowHandle();
         //switch to new window
         driver.switchTo().window(currentWindowHandle);
-
-        logo.click(); //click on logo to switch to homepage
         Thread.sleep(5000);
+//        JavascriptExecutor jse =(JavascriptExecutor)driver;
+//        jse.executeScript("window.scrollBy(0,50)");
+//        logo.click(); //click on logo to switch to homepage
+//        Thread.sleep(1000);
 
     }
 }
